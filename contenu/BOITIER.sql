@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS `BOITIER`;
-CREATE TABLE BOITIER ( idP INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE BOITIER ( id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 nom VARCHAR(100) NOT NULL, marque VARCHAR(100) NOT NULL, type_tour VARCHAR(20) NOT NULL, format VARCHAR(20) NOT NULL, fenetre VARCHAR(10) NOT NULL, 
 couleur VARCHAR(20) NOT NULL, led VARCHAR(10) NOT NULL, prix FLOAT(10,2) NOT NULL);
 
-INSERT INTO `BOITIER` (`idP`, `nom`, `marque`, `type_tour`, `format`, `fenetre`, `couleur`,`led`, `prix`) VALUES
+INSERT INTO `BOITIER` (`id`, `nom`, `marque`, `type_tour`, `format`, `fenetre`, `couleur`,`led`, `prix`) VALUES
 ('1', 'Corsair iCUE 5000T', 'Corsair', 'moyen-tour', 'ATX', 'oui', 'noir',"oui", '449.95'),
 ('2', 'Cooler Master MasterBox MB511 RGB', 'Cooler Master', 'moyen-tour', 'ATX', 'oui', 'noir', 'oui', 89.99),
 ('3', 'be quiet! Pure Base 500DX', 'be quiet!', 'moyen-tour', 'ATX', 'oui', 'blanc', 'oui', 129.90),

@@ -1,7 +1,6 @@
 <?php
 $zonePrincipale = '<h2>À propos de moi</h2>
-<p>Je suis Thomas Jouin</p>
-<p>Mon numéro étudiant est <b>22102106</b>  (jouin211) et je suis dans le <b><u>groupe 4A</u></b></p>
+<p>Je suis ? ?.</p>
 <p>Ce site permet de consulter une liste de composant utilisé dans des ordinateurs</p>
 <p><b>Liste des points que j\'ai réalisé</b></p>
 <ul>

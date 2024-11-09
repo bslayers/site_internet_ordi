@@ -1,6 +1,6 @@
 <?php
 $root = $_SERVER["DOCUMENT_ROOT"]; //pour récuperer la racine du serveur
-include_once($root."../include/config/connection.php");
+include_once($root."/include/config/connection.php");
 $action = key_exists('action', $_GET)? trim($_GET['action']): null;
 
 switch ($action){

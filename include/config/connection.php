@@ -2,9 +2,9 @@
 function connecter(){
     try {
 
-        $dns = "mysql:host=127.0.0.1;dbname=thomas"; 
-        $utilisateur ="root";
-        $motDePasse=""; 
+        $dns = "mysql:host=127.0.0.1;dbname=thomas";
+        $utilisateur ="utilisateur_local";
+        $motDePasse="thomas";
 
         // Options de connexion
         $options = array(
