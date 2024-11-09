@@ -1,0 +1,43 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="Barrette_de_ram.php?action={$cible}&id={$id}" name="form_user" >
+  <label>Nom   </label>
+  <input type="text" name="nom"  value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label>marque</label>
+  <input type="text" name="marque"  value="{$marque}">
+  <span class="w3-text-red">{$erreur["marque"]}</span><br>
+
+  <label>type memoire</label>
+  <input type="text" name="type_memoire"  value="{$type_memoire}">
+  <span class="w3-text-red">{$erreur["type_memoire"]}</span><br>
+
+  <label>frequence</label>
+  <input type="text" name="frequence"  value="{$frequence}">
+  <span class="w3-text-red">{$erreur["frequence"]}</span><br>
+
+  <label>nombre barettes</label>
+  <input type="text" name="nb_barettes"  value="{$nb_barettes}">
+  <span class="w3-text-red">{$erreur["nb_barettes"]}</span><br>
+
+  <label>capacites totale</label>
+  <input type="text" name="capacites_totale"  value="{$capacites_totale}">
+  <span class="w3-text-red">{$erreur["capacites_totale"]}</span><br>
+
+  <label>led</label>
+  <input type="text" name="led" value="{$led}">
+  <span class="w3-text-red">{$erreur["led"]}</span><br>
+
+  <label>prix</label>
+  <input type="text" name="prix"  value="{$prix}">
+  <span class="w3-text-red">{$erreur["prix"]}</span><br>
+
+  <input type="submit" name="user_valider" value="Valider"  >
+
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>

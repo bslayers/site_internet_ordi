@@ -1,0 +1,39 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="Alimentation.php?action={$cible}&id={$id}" name="form_alimentation" >
+  <label>Nom   </label>
+  <input type="text" name="nom" value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label>marque</label>
+  <input type="text" name="marque" value="{$marque}">
+  <span class="w3-text-red">{$erreur["marque"]}</span><br>
+
+  <label>puissance</label>
+  <input type="text" name="puissance" value="{$puissance}">
+  <span class="w3-text-red">{$erreur["puissance"]}</span><br>
+
+  <label>norme 80 plus</label>
+  <input type="text" name="norme_80_plus" value="{$norme_80_plus}">
+  <span class="w3-text-red">{$erreur["norme_80_plus"]}</span><br>
+
+  <label>modularites</label>
+  <input type="text" name="modularites" value="{$modularites}">
+  <span class="w3-text-red">{$erreur["modularites"]}</span><br>
+
+  <label>format</label>
+  <input type="text" name="format" value="{$format}">
+  <span class="w3-text-red">{$erreur["format"]}</span><br>
+
+  <label>Prix</label>
+  <input type="text" name="prix" value="{$prix}">
+  <span class="w3-text-red">{$erreur["prix"]}</span><br>
+
+  <input type="submit" name="user_valider" value="Valider" >
+
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>

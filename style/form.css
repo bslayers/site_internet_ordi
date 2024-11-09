@@ -1,0 +1,117 @@
+span.c1{
+  display:inline-block;
+	width:260px;
+}
+
+label
+{
+	display: inline-block;
+  width: 160px;
+}
+body { 
+  margin-left: 150px;
+  margin-right: 100px;
+  font-family: arial, helvetica;
+  font-size: 9pt;
+  background-color: #89aaf1;
+}
+
+h1 { 
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+a.c2{
+  border: 1px solid rgb(116, 152, 206);
+  padding: 8px;
+}
+
+.en_valeur { 
+  text-align: center;
+  color: red;
+  text-decoration: none;
+ background-color: #6f89c2;
+}
+a:hover { 
+  color: rgb(10, 56, 207);
+  text-decoration: underline;
+}
+
+input { 
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  font-family: arial, helvetica;
+  font-size: 8pt;
+  padding: 2px;
+  background-color: #bbbcc5;
+}
+
+textarea { 
+  border: 1px solid black;
+  font-family: arial, helvetica;
+  font-size: 8pt;
+  padding: 2px;
+  background-color: #FFFF77;
+}
+
+select {  
+  font-family: arial, helvetica;
+  font-size: 8pt;
+  padding: 2px;
+  background-color: #FFFF77;
+}
+
+table { 
+  border: 1px solid black;
+  background-color: #c2b9af;
+  width: 75%;
+}
+
+td { 
+  border-bottom: 1px solid black;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
+  padding: 6px;
+  
+}
+
+td.titre { 
+  font-weight: bold;
+}
+.tdM { 
+
+  width: 80%;
+  
+}
+
+.Menutd{
+  padding: 6px;
+}
+.Menutd>p>a{
+  color: rgb(233, 233, 240);
+  font-size: 14pt;
+}
+.Menu{
+  background-color: rgb(51, 73, 197);
+  width: 100%;
+  
+}
+
+.aPropos{
+  background-color: rgb(51, 73, 197);  
+  height: 30px;
+}
+
+.aPropos>p>a{
+  color: rgb(233, 233, 240);
+  font-size: 9pt;
+}
+
+.tabM { 
+
+  width: 100%;
+  
+}

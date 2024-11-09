@@ -1,0 +1,39 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="Stockage.php?action={$cible}&id={$id}" name="form_user" >
+  <label>Nom   </label>
+  <input type="text" name="nom"  value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label>marque</label>
+  <input type="text" name="marque"  value="{$marque}">
+  <span class="w3-text-red">{$erreur["marque"]}</span><br>
+
+  <label>type</label>
+  <input type="text" name="type"  value="{$type}">
+  <span class="w3-text-red">{$erreur["type"]}</span><br>
+
+  <label>capacites</label>
+  <input type="text" name="capacites"  value="{$capacites}">
+  <span class="w3-text-red">{$erreur["capacites"]}</span><br>
+
+  <label>vitesse lecture</label>
+  <input type="text" name="vitesse_lecture"  value="{$vitesse_lecture}">
+  <span class="w3-text-red">{$erreur["vitesse_lecture"]}</span><br>
+
+  <label>vitesse ecriture</label>
+  <input type="text" name="vitesse_ecriture"  value="{$vitesse_ecriture}">
+  <span class="w3-text-red">{$erreur["vitesse_ecriture"]}</span><br>
+
+  <label>prix</label>
+  <input type="text" name="prix"  value="{$prix}">
+  <span class="w3-text-red">{$erreur["prix"]}</span><br>
+
+  <input type="submit" name="user_valider" value="Valider"  >
+
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>

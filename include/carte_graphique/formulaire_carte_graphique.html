@@ -1,0 +1,35 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="Carte_graphique.php?action={$cible}&id={$id}" name="form_user" >
+  <label>Nom   </label>
+  <input type="text" name="nom"  value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label>marque</label>
+  <input type="text" name="marque"  value="{$marque}">
+  <span class="w3-text-red">{$erreur["marque"]}</span><br>
+
+  <label>chipset Graphique</label>
+  <input type="text" name="chipset_Graphique"  value="{$chipset_Graphique}">
+  <span class="w3-text-red">{$erreur["chipset_Graphique"]}</span><br>
+
+  <label>memoire video</label>
+  <input type="text" name="memoire_video"  value="{$memoire_video}">
+  <span class="w3-text-red">{$erreur["memoire_video"]}</span><br>
+
+  <label>consommation</label>
+  <input type="text" name="consommation" value="{$consommation}">
+  <span class="w3-text-red">{$erreur["consommation"]}</span><br>
+
+  <label>prix</label>
+  <input type="text" name="prix"  value="{$prix}">
+  <span class="w3-text-red">{$erreur["prix"]}</span><br>
+
+  <input type="submit" name="user_valider" value="Valider"  >
+
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>

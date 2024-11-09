@@ -1,0 +1,35 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="Processeur.php?action={$cible}&id={$id}" name="form_user" >
+  <label>Nom   </label>
+  <input type="text" name="nom"  value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label>marque</label>
+  <input type="text" name="marque"  value="{$marque}">
+  <span class="w3-text-red">{$erreur["marque"]}</span><br>
+
+  <label>generation</label>
+  <input type="text" name="generation"  value="{$generation}">
+  <span class="w3-text-red">{$erreur["generation"]}</span><br>
+
+  <label>coeur</label>
+  <input type="text" name="coeur"  value="{$coeur}">
+  <span class="w3-text-red">{$erreur["coeur"]}</span><br>
+
+  <label>controleur memoire</label>
+  <input type="text" name="controleur_memoire"  value="{$controleur_memoire}">
+  <span class="w3-text-red">{$erreur["controleur_memoire"]}</span><br>
+
+  <label>prix</label>
+  <input type="text" name="prix"  value="{$prix}">
+  <span class="w3-text-red">{$erreur["prix"]}</span><br>
+
+  <input type="submit" name="user_valider" value="Valider"  >
+
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>

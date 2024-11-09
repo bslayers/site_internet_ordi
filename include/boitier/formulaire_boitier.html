@@ -1,0 +1,43 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="Boitier.php?action={$cible}&id={$id}" name="form_user" >
+  <label>Nom   </label>
+  <input type="text" name="nom"  value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label>marque</label>
+  <input type="text" name="marque"  value="{$marque}">
+  <span class="w3-text-red">{$erreur["marque"]}</span><br>
+
+  <label>type tour</label>
+  <input type="text" name="type_tour"  value="{$type_tour}">
+  <span class="w3-text-red">{$erreur["type_tour"]}</span><br>
+
+  <label>format</label>
+  <input type="text" name="format"  value="{$format}">
+  <span class="w3-text-red">{$erreur["format"]}</span><br>
+
+  <label>fenetre</label>
+  <input type="text" name="fenetre" value="{$fenetre}">
+  <span class="w3-text-red">{$erreur["fenetre"]}</span><br>
+
+  <label>couleur</label>
+  <input type="text" name="couleur"  value="{$couleur}">
+  <span class="w3-text-red">{$erreur["couleur"]}</span><br>
+
+  <label>led</label>
+  <input type="text" name="led"  value="{$led}">
+  <span class="w3-text-red">{$erreur["led"]}</span><br>
+
+  <label>prix</label>
+  <input type="text" name="prix" value="{$prix}">
+  <span class="w3-text-red">{$erreur["prix"]}</span><br>
+
+  <input type="submit" name="user_valider" value="Valider" >
+
+</form>
+
+EOT;
+$zonePrincipale=$corps ;
+?>
